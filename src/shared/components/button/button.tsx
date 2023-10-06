@@ -3,7 +3,6 @@ import { ButtonContainer, ButtonSecondary, GradientButton } from './button.style
 import Text from '../text/Text';
 import { theme } from '../../themes/theme';
 import { textTypes } from '../text/textTypes';
-import LinearGradient from 'react-native-linear-gradient';
 
 interface ButtonProps extends TouchableOpacityProps {
   title: string;
